@@ -34,6 +34,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  auto_size_text: ^3.0.0
+  flutter_svg: ^2.0.9
+  url_launcher: ^6.2.5
 
 dev_dependencies:
   flutter_test:
@@ -58,9 +61,19 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+     - assets/images/
+     - assets/images/icons_svg/
+     - assets/images/quran_images/
+     - assets/images/icons_svg/contacts_svg/
+     - assets/images/icons_svg/resume_svg/
+     - assets/images/register_images/
+     - assets/images/notes_images/
+     - assets/images/store_images/
+     - assets/images/weather_app/
+     - assets/images/news_app/
+     - assets/images/toku_app/
+     - assets/images/points_counter/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -85,5 +98,11 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+
+  fonts:
+    - family: Stardom-Regular
+      fonts:
+        - asset: assets/fonts/Stardom-Regular.otf
+#        - asset: assets/fonts/Histo rycome.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
