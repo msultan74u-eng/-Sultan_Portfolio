@@ -52,7 +52,7 @@ class ContactsSliverDelegate extends StatelessWidget {
       "https://github.com/msultan74u-eng",
       "https://wa.me/201002449352?text=${Uri.encodeComponent("السلام عليكم ورحمة الله وبركاته")}",
       "mailto:msultan.74u@gmail.com?subject=Project Inquiry&body=Hello Mohamed",
-      "https://wa.me/201002449352?text=${Uri.encodeComponent("Hello Mohamed")}",
+      "https://www.linkedin.com/in/mohamed-sultan-1627b8254/",
       "https://www.facebook.com/MRSultan99",
 
     ];
