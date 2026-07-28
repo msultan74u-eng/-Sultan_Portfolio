@@ -65,6 +65,7 @@ flutter:
      - assets/images/
      - assets/images/icons_svg/
      - assets/images/quran_images/
+     - assets/images/fire_safety_academy/
      - assets/images/icons_svg/contacts_svg/
      - assets/images/icons_svg/resume_svg/
      - assets/images/register_images/

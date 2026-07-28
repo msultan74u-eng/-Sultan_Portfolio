@@ -22,7 +22,6 @@ class ProjectSliverDelegate extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final textColor = Theme.of(context).colorScheme.onSurface;
     double width = MediaQuery.of(context).size.width;
 
     final isDark = Theme.of(context).brightness == Brightness.dark;
@@ -41,6 +40,7 @@ class ProjectSliverDelegate extends StatelessWidget {
 
     final List<String> pathImages = [
       'assets/images/quran_images/001_Banner_Raq_001.jpg',
+      'assets/images/fire_safety_academy/_00_Fire.png',
       'assets/images/register_images/Chatting_App.jpg',
       'assets/images/notes_images/Notes_App.jpg',
       'assets/images/store_images/Store_App.jpg',
@@ -51,6 +51,7 @@ class ProjectSliverDelegate extends StatelessWidget {
     ];
     final List<String> stringList = [
       "Iqra App",
+      "Fire Safety Academy",
       "Chatting App",
       "Notes App",
       "Store App",
@@ -61,6 +62,7 @@ class ProjectSliverDelegate extends StatelessWidget {
     ];
     final List<String> stringUrl = [
       "https://play.google.com/store/apps/details?id=com.sultan.quran_raq",
+      "https://drive.google.com/file/d/1FSnkPD_JOrtbJ130dn47BQ_hQWwGDbAn/view?usp=sharing",
       "https://github.com/msultan74u-eng/Chatting_App",
       "https://github.com/msultan74u-eng/notes_app",
       "https://github.com/msultan74u-eng/Store_App",
@@ -81,20 +83,21 @@ class ProjectSliverDelegate extends StatelessWidget {
             decoration: BoxDecoration(
               color: colorDelegate,
               borderRadius: BorderRadius.circular(20),
-              border: Border.all(color: Colors.orangeAccent.withOpacity(0.3)),
+              border: Border.all(
+                color: Colors.orangeAccent.withValues(alpha: 0.3),
+              ),
               boxShadow: [
                 BoxShadow(
                   blurRadius: 8,
                   spreadRadius: 1,
-                  color: Colors.black.withOpacity(0.05),
+                  color: Colors.black.withValues(alpha: 0.05),
                   offset: const Offset(0, 2),
                 ),
               ],
             ),
 
             child: SizedBox(
-              width: double
-                  .infinity, // ✅ يجعل الـ Container يأخذ عرض الشاشة بالكامل
+              width: double.infinity,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -184,7 +187,7 @@ class ProjectSliverDelegate extends StatelessWidget {
                                               height: double.infinity,
                                               color: const Color(0xff151515),
                                               borderColor: const Color(
-                                                0xffde81edff,
+                                                0xde81edff,
                                               ),
                                               borderWidth: 1,
                                               glowOpacity: 0.5,
