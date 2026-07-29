@@ -40,7 +40,7 @@ class ProjectSliverDelegate extends StatelessWidget {
 
     final List<String> pathImages = [
       'assets/images/quran_images/001_Banner_Raq_001.jpg',
-      'assets/images/fire_safety_academy/_00_Fire.png',
+      'assets/images/fire_safety_academy/00_Fire.png',
       'assets/images/register_images/Chatting_App.jpg',
       'assets/images/notes_images/Notes_App.jpg',
       'assets/images/store_images/Store_App.jpg',
